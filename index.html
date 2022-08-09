@@ -11,13 +11,13 @@
 
 </head>
 
-<body class="bg-black">
+<body class="bg-black bg-jumbotron">
     <header>
-        <div class="bg-dark">
+        <div class="bg-warning">
             <div class="container">
                 <nav class="navbar navbar-expand-lg ">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="#">Navbar</a>
+                        
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
                             aria-expanded="false" aria-label="Toggle navigation">
@@ -36,9 +36,40 @@
             </div>
         </div>
     </header>
-    <div class="text-center">
-        <img class="img-fluid" src="./img/logo-kymani.png" alt="kymani-logo" id="logo">
-    </div>
+    
+    <main class="container  text-light text-opacity-75">
+        <div class="text-center ">
+            <img class="img-fluid" src="./img/logoKymani.svg" alt="kymani-logo" id="logo">
+        </div>
+        <hr class="my-2  border border-1 border-warning text-warning">
+        <hr class="my-2  border border-1 border-success text-success">
+        <hr class="my-2 border border-1 border-danger  text-danger">
+        <div class="jumbotron container-fluid pb-1 ">
+            <h2 class="display-3 fw-semibold text-warning text-center mt-3 mb-3">Pura energia para tu dia</h2>
+            <p class="lead ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae corrupti, minima
+                tenetur ipsum asperiores aut dolorum vel rem error ducimus mollitia aspernatur sunt? Aperiam
+                consequuntur repudiandae quia, omnis magni itaque.</p>
+        </div>
+        <hr class="my-4 tex text-warning">
+        <form class="container-fluid">
+            <div class=" col-md-4 ">
+                <label for="validationCustomUsername" class="form-label">Ingresa tu correo</label>
+                <p class="lead fs-6">Te contactaremos para enviarte nuestro catalogo</p>
+                <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                    <input type="text" class="form-control" id="validationCustomUsername"
+                        aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                        Ingresa tu correo porfavor.
+                    </div>
+                </div>
+            </div>
+            <div class=" col-12">
+                <button class="btn btn-success mt-3" type="submit">Enviar</button>
+            </div>
+        </form>
+    </main>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
