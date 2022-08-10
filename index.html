@@ -11,63 +11,77 @@
 
 </head>
 
-<body class="bg-black bg-jumbotron">
+<body class="bg-black ">
     <header>
         <div class="bg-warning">
             <div class="container">
                 <nav class="navbar navbar-expand-lg ">
                     <div class="container-fluid">
-                        
+                       
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
                             aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                            <div class="navbar-nav">
+                            <div class="navbar-nav ">
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                                 <a class="nav-link" href="#">Features</a>
                                 <a class="nav-link" href="#">Pricing</a>
                                 <a class="nav-link">Disabled</a>
                             </div>
                         </div>
+                        <a href="#" class="logo  ">
+                            <img class="img-fluid " src="./img/logoKymani.svg" alt="kymani-logo" id="logo">
+                        </a>
                     </div>
                 </nav>
             </div>
         </div>
     </header>
-    
-    <main class="container  text-light text-opacity-75">
-        <div class="text-center ">
-            <img class="img-fluid" src="./img/logoKymani.svg" alt="kymani-logo" id="logo">
-        </div>
-        <hr class="my-2  border border-1 border-warning text-warning">
-        <hr class="my-2  border border-1 border-success text-success">
-        <hr class="my-2 border border-1 border-danger  text-danger">
-        <div class="jumbotron container-fluid pb-1 ">
-            <h2 class="display-3 fw-semibold text-warning text-center mt-3 mb-3">Pura energia para tu dia</h2>
-            <p class="lead ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae corrupti, minima
-                tenetur ipsum asperiores aut dolorum vel rem error ducimus mollitia aspernatur sunt? Aperiam
-                consequuntur repudiandae quia, omnis magni itaque.</p>
-        </div>
-        <hr class="my-4 tex text-warning">
-        <form class="container-fluid">
-            <div class=" col-md-4 ">
-                <label for="validationCustomUsername" class="form-label">Ingresa tu correo</label>
-                <p class="lead fs-6">Te contactaremos para enviarte nuestro catalogo</p>
-                <div class="input-group has-validation">
-                    <span class="input-group-text" id="inputGroupPrepend">@</span>
-                    <input type="text" class="form-control" id="validationCustomUsername"
-                        aria-describedby="inputGroupPrepend" required>
-                    <div class="invalid-feedback">
-                        Ingresa tu correo porfavor.
-                    </div>
+
+    <main class="container-fluid  ">
+        <section class="row align-items-lg-center ">
+            <div class="bg-jumbotron col-lg-6">
+
+            </div>
+            <div class=" col-lg-5 container  text-center  text-light text-opacity-75 ">
+                <!-- <div class="col-lg-6">
+                <img class="img-fluid" src="./img/logoKymani.svg" alt="kymani-logo" id="logo">
+            </div> -->
+
+                <div class="  mt-5 mt-lg-1 pb-1  ">
+                    <h2 class="display-3 fw-semibold text-warning  mt-3 mb-3">Pura energia para tu dia</h2>
+
+                    <p class="lead m-0 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae corrupti,
+                        minima
+                        tenetur ipsum asperiores aut dolorum vel rem error ducimus mollitia aspernatur sunt? Aperiam
+                        consequuntur repudiandae quia, omnis magni itaque.</p>
                 </div>
+                <div class="mt-4 mb-5  mt-lg-5 mb-lg-5 ">
+                    <hr class="my-1   text-warning">
+                    <hr class="my-1   text-success">
+                    <hr class="my-1   text-danger">
+                </div>
+                <form >
+                    <div>
+                        <label for="validationCustomUsername" class="form-label ">Ingresa tu correo</label>
+                        <p class="lead fs-6 ">Te contactaremos para enviarte nuestro catalogo</p>
+                        <div class="input-group has-validation ">
+                            <span class="input-group-text " id="inputGroupPrepend">@</span>
+                            <input type="text" class=" form-control " id="validationCustomUsername"
+                                aria-describedby="inputGroupPrepend" required>
+                            <div class="invalid-feedback">
+                                Ingresa tu correo porfavor.
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-12">
+                        <button class="btn btn-success mt-3" type="submit">Enviar</button>
+                    </div>
+                </form>
             </div>
-            <div class=" col-12">
-                <button class="btn btn-success mt-3" type="submit">Enviar</button>
-            </div>
-        </form>
+        </section>
     </main>
 
 
