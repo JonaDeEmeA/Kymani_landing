@@ -1,7 +1,35 @@
+
+
 #logo {
 
-    width: 110px;
-    margin: 0px 0 0px;
+    width: 130px;
+    margin: 0;
+}
+
+.caja{
+    background-color: aqua;
+    width: 85vw;
+}
+
+.principal{
+    min-height: 94vh;
+}
+
+.alto-min-85{
+    min-height: 100vh;
+}
+
+.ancho-min-85{
+    min-width: 85%;
+}
+
+.img-producto{
+    width: 23em;
+    margin: 1rem;
+}
+
+.ancho-min-100{
+    min-width: 100%;
 }
 
 .bg-jumbotron{
@@ -11,18 +39,31 @@
    height: 200px;   
 }
 
+.jumbotron{
+    height: 100vh;
+}
+
 
 @media screen and (min-width:990px){
 
     .bg-jumbotron{
         background-image: url(../img/frascos.jpg);
-        background-size: cover;
-        background-position: 0px 0px;
+        background-size:cover;
+        background-position: -170px 0px;
         
-        height: 100vh;   
+        
+        
+        height: 94vh;
         /* margin: -2px 0 0 -300px; */
-        align-content: center;
+        
      }
+
+
+     .img-central{
+        position: absolute;
+        width: 50vw;
+     }
+
 }
 
 
