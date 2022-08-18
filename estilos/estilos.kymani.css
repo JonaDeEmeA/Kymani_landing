@@ -23,10 +23,11 @@
     min-width: 85%;
 }
 
-.img-producto{
-    width: 23em;
-    margin: 1rem;
+.img-perfil{
+    width: 200px;
 }
+
+
 
 .ancho-min-100{
     min-width: 100%;
@@ -58,11 +59,21 @@
         
      }
 
+     .img-producto{
+        
+        height: 310px;
+        
+    }
 
      .img-central{
         position: absolute;
         width: 50vw;
      }
+
+     .ancho-tarjeta{
+        width: 15vw;
+    }
+
 
 }
 
