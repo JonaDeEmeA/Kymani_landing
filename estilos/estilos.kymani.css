@@ -15,6 +15,10 @@
     min-height: 94vh;
 }
 
+.segundo{
+    min-height: 100vh;
+}
+
 .alto-min-85{
     min-height: 100vh;
 }
@@ -24,7 +28,7 @@
 }
 
 .img-perfil{
-    width: 200px;
+    width: 250px;
 }
 
 
@@ -61,8 +65,11 @@
 
      .img-producto{
         
-        height: 310px;
-        
+        height: 310px; 
+    }
+
+    .img-perfil{
+        width: 400px;
     }
 
      .img-central{
@@ -72,6 +79,10 @@
 
      .ancho-tarjeta{
         width: 15vw;
+    }
+
+    footer>*{
+       
     }
 
 
